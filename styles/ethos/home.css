@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@import "home-columns.css";
+
+#home .panel_controls
+{
+    float: left;
+    font-size: 80%;
+    list-style: none;
+    text-align: center;
+}
+
+#home .panel_controls li
+{
+    margin: 0 0 5ex;
+}
+
+#home .panels
+{
+}
+
+#home .panels li
+{
+    list-style: none;
+    margin: 1ex 0;
+}
+

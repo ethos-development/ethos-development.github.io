@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#about_panel p
+{
+    font-size: 120%;
+}
+
+#services_panel h4
+{
+    font-size: 120%;
+}
+
+#services_panel p
+{
+    font-style: italic;
+}

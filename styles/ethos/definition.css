@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+#def_ethos
+{
+    font-size: 90%;
+    float: right;
+    text-align: justify;
+}
+
+#def_ethos dd
+{
+    clear: both;
+    margin: 1ex 0;   
+}
+
+#def_ethos dd ol
+{
+    list-style: none;
+}
+
+#def_ethos dd li
+{
+    display: inline;
+    margin-left: 5pt;
+}

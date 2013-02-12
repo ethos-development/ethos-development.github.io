@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body, td
+{
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: Century Gothic, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 1ex;
+}
+h1 { font-size: 180%; }
+h2 { font-size: 160%; }
+h3 { font-size: 140%; }
+h4 { font-size: 120%; }
+h5 { font-size: 110%; }
+h6 { font-size: 100%; }
+
+a:link, a:visited
+{
+    color: #336;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:active, a:hover, .active
+{
+    color: #669;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a.back_link
+{
+    display: block;
+    text-align: right;
+}
+
+em
+{
+    font-style: italic;
+}
+
+p
+{
+    margin: 0 0 2ex;
+}
+
+.section
+{
+    margin-bottom: 10ex;
+}
+
+.columns
+{
+    
+}
+
+.column
+{
+
+}
+
+.clear
+{
+    clear: both;
+    border: 9px none;
+    height: 0; width: 100%;
+    margin: 0; padding: 0;
+}
+
+.greyed
+{
+    color: #CCC;
+    font-style: italic;
+}
+
+.title_hover
+{
+    font-size: 8pt;
+    font-weight: bold;
+    font-style: italic;
+    border: 1px solid #666;
+    background-color: #CCC;
+    padding: .5ex .5em;
+    position: absolute;
+    z-index: 1000;
+}
+
+#shell
+{
+    border-top: 1px solid white;
+    margin: 0 auto;
+    min-width: 960px;
+    max-width: 1200px;
+    width: auto;
+}
+
+#shell > .section
+{
+    padding: 0 20px;
+}

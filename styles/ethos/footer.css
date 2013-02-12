@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+#footer
+{
+    position: relative;
+    text-align: right;
+    font-size: 80%;
+    margin-bottom: 0;
+    padding-bottom: 10ex;
+}
+
+#footer_contact
+{
+    float: right;
+    width: 30%;
+}
+
+#footer_contact dt
+{
+    float: left;
+    width: 40%;
+    display: none;
+}
+
+#footer_contact dd
+{
+}
+
+#footer_contact dd
+{
+    white-space: pre;    
+}
+
+#footer_contact dd.phone
+{
+    font-size: 120%;
+}
+
+#footer_nav
+{
+    text-align: left;
+}
+
+#footer_nav h5
+{
+    text-transform: uppercase;
+}
+
+#footer_nav li
+{
+    list-style: none;
+}
+
+#footer_nav .column
+{
+    float: left;
+    width: 10em;
+}
+
+#footer_nav .navlist
+{
+    font-size: 80%;
+    clear: left;
+}

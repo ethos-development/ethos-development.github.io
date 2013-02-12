@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+.modal, .modal_bg
+{
+    display: none;
+    position: fixed;
+    z-index: 9999;
+}
+
+.modal_bg
+{
+    background-color: black;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+}
+
+.modal
+{
+    background-color: #EEE;
+    border: 1px outset #666;
+    right: 0; width: 500px;
+    padding: 1ex 1em;
+    margin: 0 .5em;
+}
+
+.modal .cancel_link
+{
+    color: #EEE;
+    background-image: url('/images/icons/silk/cancel.png');
+    background-repeat: no-repeat;
+    background-position: right 50%;
+    line-height: 20px;
+
+    display: block;
+    float: right;
+
+    padding: 0 .25em;
+    padding-right: 20px;
+}
+
+.modal .cancel_link:hover
+{
+    color: #999;
+}

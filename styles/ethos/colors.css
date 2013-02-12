@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body
+{
+    background-color: #212142;
+}
+
+#shell
+{
+    background-color: white;
+}
+
+#logo
+{
+
+}
+
+#header_nav
+{
+    background-color: #212142;
+}
+
+#header_nav *
+{
+    color: white;
+}
+
+#footer
+{
+    background-color: #212142;
+}
+
+#footer *
+{
+    color: white;
+}
